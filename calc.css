@@ -1,0 +1,48 @@
+body {
+    width: 30%;
+}
+#title {
+    margin-left: 10px;
+}
+
+.buttons {
+    width: auto;
+    display: inline-block;
+    height: 600px;
+    font-size: 0;
+}
+
+.button {
+    height: 50px;
+    width: 25%;
+    font-size: 14px;
+    justify-self: start;
+    
+}
+
+#display {
+    height: 100px;
+    width: auto;
+    border: black;
+    border: thick;
+    background-color: grey;
+    margin-bottom: 5px;
+    border-radius: 5
+    px;
+}
+
+
+
+/* 
+
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+
+*/
