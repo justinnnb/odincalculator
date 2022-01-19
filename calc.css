@@ -12,7 +12,7 @@ body {
     font-size: 0;
 }
 
-.button {
+.button, #clear, #one{
     height: 50px;
     width: 25%;
     font-size: 14px;
@@ -20,15 +20,20 @@ body {
     
 }
 
+
 #display {
     height: 100px;
-    width: auto;
+    width: 95%;
     border: black;
     border: thick;
     background-color: grey;
     margin-bottom: 5px;
-    border-radius: 5
-    px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    font-size: 35px;
 }
 
 
