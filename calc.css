@@ -12,7 +12,7 @@ body {
     font-size: 0;
 }
 
-.button, #clear, #one{
+.button, #clear, #one, .operators, #solve, #decimal, #delete{
     height: 50px;
     width: 25%;
     font-size: 14px;
@@ -20,23 +20,48 @@ body {
     
 }
 
-
-#display {
+#screen {
+    display: grid;
     height: 100px;
-    width: 95%;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+        "displayone operator"
+        "displaytwo displaytwo"
+}
+
+
+#displayone {
+    border: black;
+    background-color: grey;
+    padding: 5px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    font-size: 35px;
+    grid-area: displayone;
+}
+
+#displaytwo {
     border: black;
     border: thick;
     background-color: grey;
     margin-bottom: 5px;
-    border-radius: 5px;
     padding: 5px;
     display: flex;
-    justify-content:right;
-    align-items: center;
+    justify-content:left;
     font-size: 35px;
+    grid-area: displaytwo;
+
 }
 
-
+#operator {
+    border: black;
+    border: thick;
+    background-color: grey;
+    padding: 5px;
+    grid-area: operator;
+}
 
 /* 
 
